@@ -1,0 +1,35 @@
+<section class="row justify-content-center align-content-center py-2 h-100">
+  <div class="main-div">
+    <div class="championship-details p-3">
+      <h1 class="main-title">Cadastrar campeonato</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center align-items-cente">
+    <form
+      class="register-championship_form"
+      action="/register-championship"
+      method="POST"
+      id="form"
+      class="form"
+    >
+      <div class="register-championship_form-row">
+        <label>Nome do campeonato</label>
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Nome do campeonato"
+        />
+      </div>
+      <div
+        class="register-championship_form-row d-md-flex flex-row flex-sm-column"
+      >
+        <label>Data incio</label><input type="date" name="initial_date" />
+        <label>Data termino</label><input type="date" name="finish_date" />
+      </div>
+      <div class="register-championship_form-row"></div>
+      <button type="button" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+</section>

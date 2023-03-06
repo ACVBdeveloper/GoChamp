@@ -1,0 +1,198 @@
+.section-title {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: var(--white1);
+}
+
+.presentention {
+  /* background-attachment: fixed; */
+  height: 100%;
+  max-height: 1084px;
+}
+
+.presentention p {
+  font-size: 1.2rem;
+}
+
+/*---------------------
+      Latest News section
+    -----------------------*/
+
+.latest-championships-section {
+  overflow: hidden;
+  display: block;
+  clear: both;
+  background: var(--black1);
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.lc-title {
+  position: absolute;
+  height: 100%;
+  width: 29%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-right: 5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white1);
+  background: var(--yellow1);
+  z-index: 1;
+}
+
+.news-ticker {
+  width: 71%;
+  float: right;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.nt-item {
+  overflow-x: hidden;
+}
+
+.news-ticker-contant .nt-item {
+  margin-right: 35px;
+  color: #fff;
+  display: inline-block;
+}
+
+.news-ticker-contant .nt-item span {
+  margin-right: 35px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 4px 20px;
+}
+
+.news-ticker-contant .nt-item span.new {
+  background: #ff205f;
+}
+
+.news-ticker-contant .nt-item span.strategy {
+  background: #4eae60;
+}
+
+.news-ticker-contant .nt-item span.racing {
+  background: #694eae;
+}
+
+/*------------------
+      Feature Section
+    ---------------------*/
+
+.feature-item {
+  height: fit-content;
+}
+
+.fi-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.fi-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/*----------------------
+      Ultimos resultados
+    ------------------------*/
+.results-section {
+  background: linear-gradient(#3b3b3b, #333333);
+}
+.jogo-ultimos_resultados {
+  padding: 1rem;
+  font-size: 0.9rem;
+  width: fit-content;
+  font-weight: bold;
+  top: -1rem;
+  left: 2rem;
+}
+
+.results-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--white1);
+}
+
+/*----------------------
+      Review Section
+    ------------------------*/
+
+.review-section {
+  background: linear-gradient(#333333, #3b3b3b);
+  padding: 3rem 0;
+}
+.review-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.list-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.list-group-item,
+.list-group {
+  border-radius: 0.5rem;
+}
+.list-group-item {
+  background-color: #3b3b3b;
+  color: var(--white1);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 0.75rem yellow;
+}
+
+.ryu-about {
+  bottom: -4rem;
+  left: -6rem;
+}
+.csgo-about {
+  right: -15rem;
+  bottom: 0;
+}
+
+.about-text-div {
+  padding-bottom: 20rem;
+  z-index: 1;
+}
+
+@media (max-width: 762px) {
+  .ryu-about {
+    display: none;
+  }
+  .csgo-about {
+    display: none;
+  }
+}
